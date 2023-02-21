@@ -1,1 +1,1 @@
-export * from './TodayListComponent'
+export * from './TodayList'
