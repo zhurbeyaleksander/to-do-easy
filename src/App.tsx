@@ -7,10 +7,10 @@ import './App.css';
 const App = () => {
   return (
     <BrowserRouter>
-  <div className='App'>
-    <Header/>
-    </div>
-    <Router/>
+      <div className='App'>
+        <Header />
+      </div>
+      <Router />
     </BrowserRouter>
   );
 }
