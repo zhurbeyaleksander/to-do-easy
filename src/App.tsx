@@ -1,12 +1,17 @@
-import { TodayList } from './pages';
+import { BrowserRouter } from 'react-router-dom';
+import { Header } from './components';
+import { Router } from './Router';
 
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div >
-      <TodayList/>
+    <BrowserRouter>
+  <div className='App'>
+    <Header/>
     </div>
+    <Router/>
+    </BrowserRouter>
   );
 }
 
