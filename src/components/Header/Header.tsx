@@ -4,10 +4,9 @@ import { Kanban, Settings, TodayList } from "../../pages"
 export const Header = () => {
     return (
         <div>
-            <Link to='/todayList'><TodayList /></Link>
-            <Link to='/kanban' ><Kanban /></Link>
-            <Link to='/settings' ><Settings /></Link>
-            <Link to='/'><TodayList /></Link>
+            <Link to='/todayList'>ToDo list</Link>
+            <Link to='/kanban' >KanBan</Link>
+            <Link to='/settings' >Setting</Link>
         </div>
     )
 }
