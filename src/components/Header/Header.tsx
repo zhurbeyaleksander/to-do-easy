@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
-import { Kanban, Settings, TodayList } from "../../pages"
+
+import './styles.css';
 
 export const Header = () => {
     return (
-        <div>
-            <Link to='/todayList'>ToDo list</Link>
+        <div className="Header">
+            <Link to='/todayList'>Today</Link>
             <Link to='/kanban' >KanBan</Link>
             <Link to='/settings' >Setting</Link>
         </div>
