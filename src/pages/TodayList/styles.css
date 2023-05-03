@@ -1,4 +1,17 @@
-.TodyListWrap {
+/* .task-page{
+
+}
+
+.task-page_content{
+
+}
+
+.task-list{
+
+
+} */
+
+.task{
     display: flex;
     flex-direction: row;
 }

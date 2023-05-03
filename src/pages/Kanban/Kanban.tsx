@@ -1,6 +1,5 @@
-
 export const Kanban = () => {
-    return(
+    return (
         <div> Kanban</div>
     )
 }
